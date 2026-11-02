@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portofolio Mutiara Tunjung Laras</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f5faff;color:#243047;line-height:1.7}
+header{background:white;padding:20px 8%;display:flex;justify-content:space-between;align-items:center;box-shadow:0 2px 12px #dce9f5}
+.logo{font-size:22px;font-weight:bold;color:#438acb}
+nav a{margin-left:18px;text-decoration:none;color:#34445b}
+section{padding:65px 10%}
+.hero{background:linear-gradient(135deg,#e6f4ff,#f9fcff);text-align:center;padding:100px 10%}
+.hero h1{font-size:42px;margin:10px 0;color:#286ba8}
+.hero p{max-width:650px;margin:15px auto;color:#52657b}
+.label{color:#438acb;font-weight:bold;text-transform:uppercase;letter-spacing:2px;font-size:13px}
+h2{color:#286ba8;font-size:30px}
+.card{background:white;padding:28px;border-radius:18px;border:1px solid #e0edf8;box-shadow:0 8px 25px #dce9f533}
+.skills{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.skill{background:white;padding:22px;border-radius:15px;border:1px solid #e0edf8}
+.tags span{display:inline-block;background:#e6f4ff;color:#286ba8;padding:6px 12px;border-radius:8px;margin:4px;font-size:13px}
+.button{display:inline-block;background:#438acb;color:white;text-decoration:none;padding:12px 20px;border-radius:10px;margin-top:12px}
+footer{text-align:center;padding:25px;background:white;color:#68798d}
+@media(max-width:700px){header{display:block;text-align:center}nav{margin-top:12px}nav a{margin:5px;font-size:14px}.hero h1{font-size:32px}.skills{grid-template-columns:1fr}section{padding:45px 7%}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo">Mutiara.</div>
+  <nav>
+    <a href="#tentang">Tentang</a>
+    <a href="#kemampuan">Kemampuan</a>
+    <a href="#proyek">Proyek</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="label">Portofolio Pribadi</div>
+  <h1>Halo, saya Mutiara Tunjung Laras</h1>
+  <p>Mahasiswa Informatika, Fakultas Sains dan Teknologi. Saya sedang mengembangkan kemampuan di bidang teknologi, pengolahan data, dan pembuatan aplikasi sederhana.</p>
+  <a class="button" href="#proyek">Lihat Proyek Saya</a>
+</section>
+
+<section id="tentang">
+  <div class="label">Tentang Saya</div>
+  <h2>Mengenal Saya</h2>
+  <div class="card">
+    Saya merupakan mahasiswa Program Studi Informatika di Fakultas Sains dan Teknologi. Saya tertarik mempelajari pemanfaatan teknologi untuk membantu pekerjaan menjadi lebih terstruktur dan mudah digunakan. Saya terus mengembangkan kemampuan melalui tugas kuliah dan proyek yang saya kerjakan.
+  </div>
+</section>
+
+<section id="kemampuan">
+  <div class="label">Kemampuan</div>
+  <h2>Teknologi yang Saya Gunakan</h2>
+  <div class="skills">
+    <div class="skill"><h3>Microsoft Excel</h3><p>Menggunakan tabel dan rumus untuk membantu pengolahan data.</p></div>
+    <div class="skill"><h3>Excel VBA</h3><p>Menggunakan tombol dan macro untuk menjalankan fungsi tertentu dalam aplikasi Excel.</p></div>
+    <div class="skill"><h3>Pengolahan Data</h3><p>Menyusun data dan menampilkan rekapitulasi secara terstruktur.</p></div>
+  </div>
+</section>
+
+<section id="proyek">
+  <div class="label">Proyek Pilihan</div>
+  <h2>EmoJournal</h2>
+  <div class="card">
+    <h3>Aplikasi Evaluasi dan Refleksi Emosi Mingguan Siswa</h3>
+    <p>EmoJournal merupakan aplikasi berbasis Microsoft Excel yang dikembangkan untuk membantu pencatatan dan rekapitulasi emosi mingguan siswa. Aplikasi ini menggunakan tabel, rumus, dan tombol untuk memudahkan proses pengolahan data.</p>
+    <div class="tags">
+      <span>Microsoft Excel</span><span>VBA</span><span>Rumus Excel</span><span>Pengolahan Data</span>
+    </div>
+    <p><strong>Tujuan:</strong> Membantu pencatatan emosi siswa secara lebih terstruktur sehingga hasilnya lebih mudah ditinjau.</p>
+  </div>
+</section>
+
+<section>
+  <div class="card">
+    <div class="label">Kontak</div>
+    <h2>Mari Terhubung</h2>
+    <p>Silakan kunjungi profil GitHub saya untuk melihat proyek yang sedang saya kembangkan.</p>
+    <a class="button" href="https://github.com/mutiarasiwi">Profil GitHub</a>
+  </div>
+</section>
+
+<footer>© 2026 Mutiara Tunjung Laras · Portofolio Pribadi</footer>
+</body>
+</html>
